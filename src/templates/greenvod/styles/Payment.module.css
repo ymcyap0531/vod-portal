@@ -1,0 +1,135 @@
+.payment {
+  background-color: var(--bgblack) !important;
+  color: var(--colorwhite);
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 15px;
+  font-family:var(--fontprimary);
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
+.pos_re {
+  /* position: relative; */
+  padding: 70px 0px;
+  padding-top: 110px;
+  /* background: url("../../../../public/images/round2.png") repeat; */
+}
+
+.inputfield_container {
+  position: relative;
+  width: 100%;
+  margin-top: -5px;
+}
+
+.butn_container {
+  position: relative;
+}
+
+.inputfield_container .butn_container .butn {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.butn {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 30px;
+  background: var(--bgmossgreen);
+  color: var(--colorwhite) !important;
+  border: 1px solid;
+  border-color: var(--bgmossgreen);
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+}
+
+.butn span {
+  position: relative;
+  z-index: 2;
+  padding-top: 2px;
+}
+
+.butn:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: width 0.2s;
+  transition: width 0.2s;
+  z-index: 1;
+  opacity: 1;
+  color: var(--colorprimary);
+}
+
+.butn:after {
+  background: var(--bgdarkgrey);
+}
+
+.butn:hover:after {
+  width: 100%;
+}
+
+.butn:hover + .dotbtn {
+  opacity: 1;
+}
+
+.SignUpForm h2 {
+  font-family:var(--fontprimary);
+}
+
+.home {
+  position: relative;
+  background: url("../../../../public/images/bg_home8.png");
+  background-size: cover;
+}
+
+.home h4 {
+  text-transform: uppercase;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border: 0;
+  z-index: 9;
+  min-height: 50px;
+  padding: 15px 0px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: var(--bgdarkmossgreen);
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bgdarkmossgreen);
+  color:var(--colorwhite);
+}
+
+.sign_instead a {
+  color: var(--colorwhite);
+  text-decoration: underline;
+}
+
+.tabbtn {
+  background-color: var(--bgmossgreen);
+  color: var(--colorwhite) !important;
+  border-radius: 20px;
+}
+
+.home h2 {
+  color: var(--colorwhite);
+  font-family:var(--fontprimary);
+}

@@ -1,0 +1,13 @@
+.movie_details_content .movie_details_info ul li span {
+  font-weight: 500;
+  min-width: 100px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 10px;
+  color: var(--colorvintageteal);
+}
+
+.pos_re {
+  position: relative;
+  padding: 70px 0px;
+}

@@ -1,0 +1,127 @@
+.main {
+  background-color: var(--bggreygreen) !important;
+  color: var(--colorprimary);
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 15px;
+  font-family:var(--fontsansserif1);
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
+.background_color {
+  background-color: var(--bggreygreen) !important;
+  height: 100vh;
+  color: var(--colorprimary);
+  font-family:var(--fontsansserif1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text_primary_color {
+  color: var(--colorvintageteal);
+}
+
+.butn {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 30px;
+  background: var(--bgvintageteal);
+  color: var(--colorwhite) !important;
+  border: 1px solid;
+  border-color: var(--bgvintageteal);
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+}
+
+.pos_re {
+  padding: 70px 0px;
+  padding-top: 110px;
+  background: url("../../../../public/images/round4.png") repeat;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border: 0;
+  z-index: 9;
+  min-height: 50px;
+  padding: 15px 0px;
+  background: var(--bggreygreen);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color:var(--colorwhite);
+  font-family:var(--fontsansserif1);
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bggreygreen);
+  color:var(--colorwhite);
+  font-family:var(--fontsansserif1);
+}
+
+.movietitle {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  line-height: 105%;
+  padding: 5px;
+  color: var(--colorprimary);
+  background: var(--bgvintageteal);
+  min-height: 45px;
+  text-transform: uppercase;
+}
+
+.tabbtn {
+  background-color: var(--bgvintageteal);
+  color: var(--colorwhite) !important;
+}
+
+.products {
+  position: relative;
+  background:var(--bggreygreen);
+  background: url("../../../../public/images/round4.png") repeat;
+  color:var(--colorwhite);
+}
+
+.products h3 {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border-left: 10px solid var(--colorvintageteal);
+  font-family:var(--fontsansserif1);
+  font-weight:bold;
+}
+
+.home {
+  position: relative;
+  background: url("../../../../public/images/bg_home5.png");
+  background-size: cover;
+}
+
+.genrescategory a:hover{
+  color:var(--colorvintageteal);
+}
+
+.genre_feature_img :hover{
+  opacity:.8;
+}
+
+.moviedetailscontent .moviedetailsinfo ul li span {
+  font-weight: 500;
+  min-width: 100px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 10px;
+  color: var(--colorvintageteal);
+}

@@ -1,0 +1,81 @@
+.SignUpForm {
+  background-color: var(--bggreygreen) !important;
+  color: var(--colorwhite);
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 15px;
+  font-family:var(--fontsansserif1);
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
+.pos_re {
+  position: relative;
+  padding: 70px 0px;
+  padding-top: 110px;
+  background: url("../../../../public/images/round3.png") repeat;
+}
+
+.butn {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 30px;
+  background: var(--bgvintageteal);
+  color: var(--colorwhite) !important;
+  border: 1px solid;
+  border-color: var(--bgvintageteal);
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+}
+
+.SignUpForm h2 {
+  font-family:var(--fontsansserif1);
+}
+
+.home h2 {
+  /* color: var(--colorgold); */
+  color: var(--colorvintageteal);
+}
+
+.home {
+  position: relative;
+  background: url("../../../../public/images/bg_home5.png");
+  background-size: cover;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border: 0;
+  z-index: 9;
+  min-height: 50px;
+  padding: 15px 0px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: var(--bggreygreen);
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bggreygreen);
+  color:var(--colorwhite);
+}
+
+.sign_instead a {
+  color: var(--colorvintageteal);
+  text-decoration: underline;
+}
+
+.tabbtn {
+  background-color: var(--bgblack);
+  color: var(--colorwhite) !important;
+}

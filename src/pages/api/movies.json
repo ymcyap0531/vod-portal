@@ -1,0 +1,221 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Movie #1",
+        "description": "This is a **description**",
+        "year": 1950,
+        "director": "A. Director",
+        "duration": "1:05",
+        "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "sample_content_url": "http://www.someimageurl.com/sample_movie_1.mp4",
+        "full_content_url": "http://www.someimageurl.com/movie_1.mp4",
+        "starring": "Super Star",
+        "createdAt": "2022-06-28T07:17:20.301Z",
+        "updatedAt": "2022-06-28T08:14:52.478Z",
+        "publishedAt": "2022-06-28T07:17:21.355Z",
+        "categories": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Comedy",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "Action",
+                "createdAt": "2022-06-28T07:16:10.867Z",
+                "updatedAt": "2022-06-28T07:16:10.867Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Movie #2",
+        "description": "This is a **description**",
+        "year": 1950,
+        "director": "A. Director",
+        "duration": "1:05",
+        "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "sample_content_url": "http://www.someimageurl.com/sample_movie_1.mp4",
+        "full_content_url": "http://www.someimageurl.com/movie_1.mp4",
+        "starring": "Super Star",
+        "createdAt": "2022-06-28T07:17:20.301Z",
+        "updatedAt": "2022-06-28T08:14:52.478Z",
+        "publishedAt": "2022-06-28T07:17:21.355Z",
+        "categories": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Comedy",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "Action",
+                "createdAt": "2022-06-28T07:16:10.867Z",
+                "updatedAt": "2022-06-28T07:16:10.867Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Movie #3",
+        "description": "This is a **description**",
+        "year": 1950,
+        "director": "A. Director",
+        "duration": "1:05",
+        "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "sample_content_url": "http://www.someimageurl.com/sample_movie_1.mp4",
+        "full_content_url": "http://www.someimageurl.com/movie_1.mp4",
+        "starring": "Super Star",
+        "createdAt": "2022-06-28T07:17:20.301Z",
+        "updatedAt": "2022-06-28T08:14:52.478Z",
+        "publishedAt": "2022-06-28T07:17:21.355Z",
+        "categories": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Drama",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "Movie #4",
+        "description": "This is a **description**",
+        "year": 1950,
+        "director": "A. Director",
+        "duration": "1:05",
+        "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "sample_content_url": "http://www.someimageurl.com/sample_movie_1.mp4",
+        "full_content_url": "http://www.someimageurl.com/movie_1.mp4",
+        "starring": "Super Star",
+        "createdAt": "2022-06-28T07:17:20.301Z",
+        "updatedAt": "2022-06-28T08:14:52.478Z",
+        "publishedAt": "2022-06-28T07:17:21.355Z",
+        "categories": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Scifi",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            },
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Thriller",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Movie #5",
+        "description": "This is a **description**",
+        "year": 1950,
+        "director": "A. Director",
+        "duration": "1:05",
+        "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "sample_content_url": "http://www.someimageurl.com/sample_movie_1.mp4",
+        "full_content_url": "http://www.someimageurl.com/movie_1.mp4",
+        "starring": "Super Star",
+        "createdAt": "2022-06-28T07:17:20.301Z",
+        "updatedAt": "2022-06-28T08:14:52.478Z",
+        "publishedAt": "2022-06-28T07:17:21.355Z",
+        "categories": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Scifi",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            },
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Thriller",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "title": "Movie #6",
+        "description": "This is a **description**",
+        "year": 1950,
+        "director": "A. Director",
+        "duration": "1:05",
+        "poster_image_url": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "sample_content_url": "http://www.someimageurl.com/sample_movie_1.mp4",
+        "full_content_url": "http://www.someimageurl.com/movie_1.mp4",
+        "starring": "Super Star",
+        "createdAt": "2022-06-28T07:17:20.301Z",
+        "updatedAt": "2022-06-28T08:14:52.478Z",
+        "publishedAt": "2022-06-28T07:17:21.355Z",
+        "categories": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Scifi",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            },
+            {
+              "id": 1,
+              "attributes": {
+                "name": "Thriller",
+                "createdAt": "2022-06-28T07:16:00.554Z",
+                "updatedAt": "2022-06-28T07:16:00.554Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 1 }
+  }
+}

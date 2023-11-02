@@ -1,0 +1,53 @@
+.privacy {
+  background-color: var(--bggreygreen) !important;
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 15px;
+  font-family:var(--fontsansserif1);
+  color:var(--colorwhite);
+}
+
+.pos_re {
+  position: relative;
+  padding: 70px 0px;
+  padding-top: 110px;
+  /* background: url("../../../../public/images/round.png") repeat; */
+}
+
+.privacy h3 {
+  font-family:var(--fontsansserif1);
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 5px solid;
+  border-color: var(--colorvintageteal);
+  padding: 7px 0px;
+  display: block;
+}
+
+.privacy h1 {
+  font-family:var(--fontsansserif1);
+  border-left: 10px solid;
+  border-left-color: var(--colorvintageteal);
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.privacy p {
+  font-weight: 200;
+}
+
+.privacy a {
+  text-decoration: underline;
+}
+
+.privacy h2 {
+  font-size: calc(1.275rem + 0.3vw);
+  font-weight: 500;
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bggreygreen);
+  color:var(--colorwhite)!important;
+}

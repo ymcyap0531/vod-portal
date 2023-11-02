@@ -1,0 +1,70 @@
+.bg_primary_color {
+  background-color: var(--bggreygreen);
+}
+
+.category_butn {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 3px 28px;
+  color: var(--colorwhite) !important;
+  border: 1px solid;
+  border-color: var(--bgvintageteal);
+  border-radius: 0px;
+  position: relative;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.category_active {
+  background: var(--bgvintageteal) !important;
+  color:var(--colorwhite)!important;
+}
+
+.pagination {
+  border-color: var(--bgvintageteal);
+  background: var(--bgvintageteal);
+  color:var(--colorwhite);
+  border-radius: 2px;
+  border-width: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pagination_active{
+  border-color:var(--colorvintageteal);
+}
+
+.searchbtn_expand {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  border:2px solid;
+  border-color: var(--colorvintageteal);
+  width: 27px;
+  height: 27px;
+  border-radius: 27px;
+  text-align: center;
+}
+
+.searchbtn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: var(--bgvintageteal);
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  text-align: center;
+}
+
+.pos_re {
+  position: relative;
+  padding: 70px 0px;
+  padding-top: 110px;
+}

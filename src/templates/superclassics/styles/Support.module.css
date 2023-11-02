@@ -1,0 +1,106 @@
+.support {
+  background-color: var(--bgaccent3) !important;
+  color: var(--colorblack);
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 15px;
+  font-family:var(--fontserif1);
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
+.support h1, .support h2, .support h3{
+  font-family:var(--fontserif1);
+}
+
+.pos_re {
+  position: relative;
+  padding: 50px 0px;
+  background: url("../../../../public/images/round3.png") repeat;
+  /*min-height: 50vh;*/
+}
+
+.butn {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 30px;
+  background: var(--bgvintageblue);
+  color: var(--colorwhite) !important;
+  border: 1px solid;
+  border-color: var(--bgvintageblue);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+}
+
+.contactform {
+  position: relative;
+  /* background: url("../../../../public/images/bg_home.png");
+  background-size: cover; */
+}
+.contactform :before {
+  background:var(--bgaccent3)!important;
+}
+.contactform h2 {
+  color: var(--colorblack);
+}
+
+.faq {
+  font-family:var(--fontserif1);
+  color: var(--colorblack)!important;
+  background:var(--bgaccent3)!important;
+}
+
+.faq button{
+  font-family:var(--fontserif1);
+}
+
+.faq h4{
+  /* padding-bottom:20px; */
+  border-bottom: solid 1px;
+  border-color:var(--colorvintageblue);
+  margin-bottom: 20px;
+}
+
+.collapsible {
+  background-color: var(--bgaccent3);
+  color: var(--colorblack)!important;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 600;
+}
+
+.faq .active,
+.collapsible:hover {
+  color:var(--colorwhite)!important;
+}
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: var(--bgaccent3);
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bgvintageblue);
+  color:var(--colorwhite);
+}
+
+.home {
+  position: relative;
+  /* background: url("../../../../public/images/bg_home.png"); 
+  background-size: cover;*/
+  background:var(--bgaccent3)!important;
+}

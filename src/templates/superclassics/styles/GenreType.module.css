@@ -1,0 +1,10 @@
+.genre h3 {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-family:var(--fontserif1);
+  /* border-left: 10px solid var(--coloraccent3); */
+}
+
+.backtogenre{
+  border-color:var(--colorwhite);
+}

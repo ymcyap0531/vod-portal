@@ -1,0 +1,65 @@
+.logo{
+    max-width: 200px;
+  }
+  
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: 0;
+    z-index: 9;
+    min-height: 50px;
+    padding: 15px 0px;
+    background: var(--bgprimary);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  .useridtxt{
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  .fa-user{
+    padding-left: 10px;
+  }
+  
+  .navbar.fold{
+    border-top:6px solid;
+    border-color: var(--coloraccent);
+    padding:0px;
+    height:1px;
+  }
+  
+  .menu {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .nav-container {
+    right:0px;
+  }
+  
+  .tab {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--colorprimary);
+    margin: 0px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    line-height: 100%;
+    /*letter-spacing: 1px;*/
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  .active-tab {
+    color: var(--coloraccent)!important;
+    text-align: center!important;
+  }

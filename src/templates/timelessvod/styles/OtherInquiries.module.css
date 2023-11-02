@@ -1,0 +1,70 @@
+.other_inquiries {
+  background-color: var(--bgblack) !important;
+  color: var(--colorprimary);
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 15px;
+  font-family:var(--fontserif1);
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
+.pos_re {
+  position: relative;
+  padding: 70px 0px;
+  padding-top: 110px;
+  /* background: url("../../../../public/images/round2.png") repeat; */
+  /*min-height: 50vh;*/
+}
+
+.border_primary_color {
+  border-color: #581845;
+}
+
+.butn {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 30px;
+  background: var(--bgvintagemaroon);
+  color: var(--colorwhite) !important;
+  border: 1px solid;
+  border-color: var(--bgvintagemaroon);
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: inset 0px 1px 3px 0px #91b8b3;
+}
+
+.other_inquiries h2 {
+  font-family:var(--fontserif1);
+}
+
+.home {
+  position: relative;
+  background: url("../../../../public/images/bg_home7.png");
+  background-size: cover;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border: 0;
+  z-index: 9;
+  min-height: 50px;
+  padding: 15px 0px;
+  background: var(--bgblack);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.copyright {
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bgblack);
+}

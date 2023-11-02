@@ -1,0 +1,11 @@
+.pos_re {
+  /* position: relative; */
+  padding: 70px 0px;
+  padding-top: 110px;
+  /* background: url("../../../../public/images/round2.png") repeat; */
+}
+
+.sign_instead a {
+  color: var(--coloraccent2);
+  text-decoration: underline;
+}

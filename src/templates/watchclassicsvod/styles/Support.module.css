@@ -1,0 +1,47 @@
+.pos_re {
+  position: relative;
+  padding: 70px 0px;
+  padding-top: 110px;
+  /* background: url("../../../../public/images/round2.png") repeat; */
+  /*min-height: 50vh;*/
+}
+
+.contactform {
+  position: relative;
+  background: url("../../../../public/images/bg_home2.png");
+  background-size: cover;
+}
+.contactform :before {
+  opacity:0!important;
+}
+.faq {
+  font-family: var(--fontprimary2);
+}
+
+.contactform h2 {
+  color: blue;
+}
+
+.collapsible {
+  background-color: var(--bgdarkgrey);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 600;
+}
+
+.faq .active,
+.collapsible:hover {
+  background-color: var(--bgaccent2);
+}
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: var(--bgprimary2);
+}

@@ -1,0 +1,141 @@
+import Link from "next/link";
+import React from "react";
+import ReactPlayer from "react-player";
+import Footer from "../../../components/Footer";
+import MovieCard from "../../../components/MovieCard";
+import PortalNavBar from "../../../components/PortalNavBar";
+import { TemplateProps } from "../../../pages/WatchMovie/types";
+import watchMoviestyles from "../styles/WatchMovie.module.css";
+import styles from "../styles/Styles.module.css";
+import Error from "../../../pages/_error";
+
+const ClassicsWatchMovieTemplate = ({
+  translatedText,
+  brand,
+  movie,
+  categories,
+  recommendCategory,
+  recommendResError,
+  movieResError,
+}: TemplateProps) => {
+  if (recommendResError || movieResError) {
+    return (
+      <div className={`${styles.background_color} h-screen`}>
+        <Error statusCode={movieResError} />
+      </div>
+    );
+  } else {
+    return (
+      <div className={styles.watch_classics_vod}>
+        <PortalNavBar styles={styles} brand={brand} />
+        <section
+          className={`products ${watchMoviestyles.pos_re} pt-[100px]`}
+          data-overlay-dark2={8}
+          id=""
+        >
+          <div className="container">
+            <div className="movie-details-title">
+              <h3>{movie?.attributes.title}</h3>
+            </div>
+            <div className="video-wrap relative pt-[56.25%]">
+              <ReactPlayer
+                url={`${process.env.NEXT_PUBLIC_CONTENT_MOVIE_URL}${movie?.attributes.movie_url}`}
+                config={{
+                  file: { attributes: { controlsList: "nodownload" } },
+                }}
+                onContextMenu={(e: any) => e.preventDefault()}
+                controls
+                autoplayer
+                height="100%"
+                width="100%"
+                className="absolute top-0 left-0"
+              />
+            </div>
+            <div
+              className={`${watchMoviestyles.movie_details_content} movie-details-content`}
+            >
+              <div
+                className={`${watchMoviestyles.movie_details_info} movie-details-info`}
+              >
+                <ul>
+                  <li>
+                    <span>{translatedText.director}: </span>
+                    {movie?.attributes.director}
+                  </li>
+                  <li>
+                    <span>{translatedText.starring}: </span>
+                    {movie?.attributes.starring}
+                  </li>
+                  <li>
+                    <span>{translatedText.category}:</span>
+                    {categories?.data.map(
+                      (category, index) =>
+                        `${category.attributes.name}${
+                          categories?.data.length - 1 === index ? "" : ", "
+                        } `
+                    )}
+                  </li>
+                  <li>
+                    <span>{translatedText.duration}: </span>
+                    {movie?.attributes.duration}
+                  </li>
+                  <li>
+                    <span>{translatedText.year}: </span>
+                    {movie?.attributes.year}
+                  </li>
+                  <li>
+                    <span>{translatedText.imdb}: </span>
+                    <a
+                      href={movie?.attributes.imdb_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline hover:underline"
+                    >
+                      {movie?.attributes.imdb_url}
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p>{movie?.attributes.description}</p>
+            </div>
+          </div>
+        </section>
+
+        <section className={`products ${watchMoviestyles.pos_re}`} id="">
+          <div className="container">
+            <div className={styles.movierow}>
+              <h3>{translatedText.recommended_for_you}</h3>
+              <br />
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 ">
+                {recommendCategory?.data.map((movie) => (
+                  <Link
+                    href={{
+                      pathname: "/WatchMovie/",
+                      query: { id: movie.id },
+                    }}
+                    key={movie.id}
+                  >
+                    <a>
+                      <MovieCard
+                        title={movie?.attributes.title}
+                        poster_url={movie.attributes.poster_url}
+                        key={movie.id}
+                        className={styles.movietitle}
+                      />
+                    </a>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={`${styles.copyright} ${styles.pos_re}`} id="sec4">
+          <Footer brand={brand} />
+        </section>
+      </div>
+    );
+  }
+};
+
+export default ClassicsWatchMovieTemplate;
