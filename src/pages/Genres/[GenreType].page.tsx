@@ -59,7 +59,7 @@ export const getServerSideProps: GetServerSideProps = requireAuthentication(
     const token = req.cookies.jwt;
     const myAuthHeaders = {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${process.env.NEXT_PUBLIC_TOKEN}`,
     };
 
     const category = _ctx.query.GenreType;

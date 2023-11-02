@@ -43,7 +43,7 @@ const ChangePassword = ({
   const brand = getBrand(brands, hostName, brandConfigs);
   const myAuthHeaders = {
     "Content-Type": "application/json",
-    Authorization: `Bearer ${token}`,
+    Authorization: `Bearer ${process.env.NEXT_PUBLIC_TOKEN}`,
   };
 
   const { t } = useTranslation();

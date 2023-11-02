@@ -61,7 +61,7 @@ export const getServerSideProps: GetServerSideProps = requireAuthentication(
     }
     const myAuthHeaders = {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${process.env.NEXT_PUBLIC_TOKEN}`,
     };
     res.setHeader(
       "Cache-Control",
