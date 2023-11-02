@@ -75,7 +75,7 @@ export const getServerSideProps: GetServerSideProps = async (_ctx) => {
 
   let hostName;
   if (req) {
-    hostName = "classidel.com"//req.headers.host;
+    hostName = req.headers.host;
   }
 
   res.setHeader(
