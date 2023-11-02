@@ -32,7 +32,7 @@ const PortalNavBar = ({ styles, brand }: PortalNavbarProps) => {
               <Image
                 height={36}
                 width={200}
-                src={`${process.env.NEXT_PUBLIC_CONTENT_IMAGE_URL}img/${brand.attributes.template}/logo.png`}
+                src={`/images/${brand.attributes.template}.png`}
                 alt="logo"
               />
             </a>
