@@ -16,7 +16,7 @@ const EraLandingPageTemplate = ({
   specialCategories,
   htmlContent,
 }: TemplateProps) => {
-  const specialCategoriesList = ["LongAndGone Romance", "LongAndGone Horror"];
+  const specialCategoriesList = ["Romance", "Horror"];
   return (
     <div className={styles.landing_page}>
       <LandingPageNav
@@ -85,7 +85,7 @@ const EraLandingPageTemplate = ({
         <div className="container">
           <div className={`${styles.movierow} movierow`}>
             {specialCategories.data.map((special_category: SpecialCategory) => {
-              if (special_category.attributes.name === "LongAndGone Wild West") {
+              if (special_category.attributes.name === "Wild West") {
                 return (
                   <>
                     <h3 className="mb-2">{special_category.attributes.name}</h3>
