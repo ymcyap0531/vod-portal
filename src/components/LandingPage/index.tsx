@@ -24,7 +24,7 @@ const LandingPage = ({
   translatedText,
 }: PortalProps) => {
   const md = new MarkdownIt();
-  const htmlContent = md.render(articles.data[0].attributes.content);
+  const htmlContent = "\"## Watch Anywhere. Anytime. On any device.\n\nStream unlimited movies on any device. Enjoy watching them on Your TV, computer, phone, tablet or laptop.\n\n\n` `  \n**All movie genres**\n\nDo you feel like you’ve already seen it all? Browse & discover best highly rated, less mainstream movies available for immediate streaming on our movie library\n\n` `  \n**Watch without limits**\n\nYou receive full access to our movie library and all future releases. No transfer limits, no speed restrictions - make the most of our service.\n\n` `  \n**Available on your favorite devices**\n\nComputer, TV, Game Consoles, Mobile & Tablet\n\n` `  \n**Highly rated films**\n\nWe carefully select movies which received the highest ratings both from viewers and critics. In other words: best of the best, from classics to fresh releases.\n\n` `  \n**Try it for 2 days!**\n\nWe’re sure you’ll love your time with us. That’s why we give a 2 day  trial to all our new visitors, without any strings attached.\""//md.render(articles.data[0].attributes.content);
   const jwt = nookies.get();
   const { t } = useTranslation();
   useEffect(() => {
