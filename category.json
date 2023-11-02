@@ -1,0 +1,186 @@
+[
+    {
+      "id": 2,
+      "name": "Animation",
+      "created_at": "2022-07-08 10:58:53.662",
+      "updated_at": "2022-07-08 10:58:53.662",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 3,
+      "name": "Short",
+      "created_at": "2022-07-08 10:58:54.227",
+      "updated_at": "2022-07-08 10:58:54.227",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 4,
+      "name": "Comedy",
+      "created_at": "2022-07-08 10:58:54.875",
+      "updated_at": "2022-07-08 10:58:54.875",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 5,
+      "name": "Family",
+      "created_at": "2022-07-08 10:58:55.471",
+      "updated_at": "2022-07-08 10:58:55.471",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 6,
+      "name": "Western",
+      "created_at": "2022-07-08 10:58:56.03",
+      "updated_at": "2022-07-08 10:58:56.03",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 7,
+      "name": "Drama",
+      "created_at": "2022-07-08 10:58:56.589",
+      "updated_at": "2022-07-08 10:58:56.589",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 8,
+      "name": "Romance",
+      "created_at": "2022-07-08 10:58:57.691",
+      "updated_at": "2022-07-08 10:58:57.691",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 9,
+      "name": "War",
+      "created_at": "2022-07-08 10:58:58.817",
+      "updated_at": "2022-07-08 10:58:58.817",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 10,
+      "name": "Musical",
+      "created_at": "2022-07-08 10:59:00.26",
+      "updated_at": "2022-07-08 10:59:00.26",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 11,
+      "name": "Crime",
+      "created_at": "2022-07-08 10:59:00.83",
+      "updated_at": "2022-07-08 10:59:00.83",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 12,
+      "name": "Thriller",
+      "created_at": "2022-07-08 10:59:01.984",
+      "updated_at": "2022-07-08 10:59:01.984",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 13,
+      "name": "Adventure",
+      "created_at": "2022-07-08 10:59:02.58",
+      "updated_at": "2022-07-08 10:59:02.58",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 14,
+      "name": "Mystery",
+      "created_at": "2022-07-08 10:59:03.736",
+      "updated_at": "2022-07-08 10:59:03.736",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 15,
+      "name": "Action",
+      "created_at": "2022-07-08 10:59:04.629",
+      "updated_at": "2022-07-08 10:59:04.629",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 16,
+      "name": "Film-Noir",
+      "created_at": "2022-07-08 10:59:06.322",
+      "updated_at": "2022-07-08 10:59:06.322",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 17,
+      "name": "Sci-Fi",
+      "created_at": "2022-07-08 10:59:11.919",
+      "updated_at": "2022-07-08 10:59:11.919",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 18,
+      "name": "Fantasy",
+      "created_at": "2022-07-08 10:59:19.269",
+      "updated_at": "2022-07-08 10:59:19.269",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 19,
+      "name": "History",
+      "created_at": "2022-07-08 10:59:27.288",
+      "updated_at": "2022-07-08 10:59:27.288",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 20,
+      "name": "Documentary",
+      "created_at": "2022-07-08 10:59:27.869",
+      "updated_at": "2022-07-08 10:59:27.869",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 21,
+      "name": "Music",
+      "created_at": "2022-07-08 10:59:30.454",
+      "updated_at": "2022-07-08 10:59:30.454",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 22,
+      "name": "Biography",
+      "created_at": "2022-07-08 10:59:48.287",
+      "updated_at": "2022-07-08 10:59:48.287",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 25,
+      "name": "Sport",
+      "created_at": "2022-09-05 10:49:34.526",
+      "updated_at": "2022-09-05 10:49:34.526",
+      "created_by_id": null,
+      "updated_by_id": null
+    },
+    {
+      "id": 26,
+      "name": "Film Noir",
+      "created_at": "2022-09-05 10:50:01.886",
+      "updated_at": "2022-09-05 10:50:01.886",
+      "created_by_id": null,
+      "updated_by_id": null
+    }
+   ]

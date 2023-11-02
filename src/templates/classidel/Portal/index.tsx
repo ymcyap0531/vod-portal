@@ -27,6 +27,7 @@ const EraPortalTemplate = ({
   catResError,
   movieError,
 }: TemplateProps) => {
+
   if (catResError || movieError) {
     if (category) {
       return (

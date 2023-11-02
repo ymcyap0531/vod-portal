@@ -450,11 +450,11 @@ export const getServerSideProps: GetServerSideProps = async (_ctx) => {
   const hostNameClean = hostName.replace("www.", "");
   const baseHostName  = hostNameClean.split(".");
   const subdomain     = baseHostName[0];
-  const domain        = baseHostName[1]?.startsWith("localhost") 
-      ? `${process.env.NEXT_PUBLIC_LOCAL_DOMAIN}`.split(".")[0]
-      : baseHostName[1];
+  const domain        = "classidel.com"//baseHostName[1]?.startsWith("localhost") 
+      //? `${process.env.NEXT_PUBLIC_LOCAL_DOMAIN}`.split(".")[0]
+      //: baseHostName[1];
 
-  const brandConfigsDetailsRes = await axios.get(
+      const brandConfigsDetailsRes = await axios.get(
     `${process.env.NEXT_PUBLIC_API_URL}/brand-configs?populate=*&filters[country_code][$eq]=${subdomain}&filters[brand][template][$eq]=${domain}`,
     {
       headers: myHeaders,

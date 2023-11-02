@@ -166,9 +166,10 @@ export const getServerSideProps: GetServerSideProps = requireAuthentication(
     const { category, page } = _ctx.query;
     const { req, res } = _ctx;
     const token = req.cookies.jwt;
+
     const myAuthHeaders = {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${token}`,
+      Authorization: `Bearer ${process.env.NEXT_PUBLIC_TOKEN}`,
     };
 
     let catResError;
@@ -205,7 +206,7 @@ export const getServerSideProps: GetServerSideProps = requireAuthentication(
       .catch((err) => {
         catResError = err.response.status;
       });
-
+      
     const allMovieRes = await axios
       .get(
         `${process.env.NEXT_PUBLIC_API_URL}/movies/?pagination[page]=${

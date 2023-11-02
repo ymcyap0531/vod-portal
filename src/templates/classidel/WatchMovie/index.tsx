@@ -19,6 +19,7 @@ const EraWatchMovieTemplate = ({
   recommendResError,
   movieResError,
 }: TemplateProps) => {
+
   if (recommendResError || movieResError) {
     return (
       <div className={`${styles.background_color} h-screen`}>
