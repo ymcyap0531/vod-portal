@@ -21,7 +21,7 @@ const Footer = ({ brand }: FooterProps) => {
           <Image
             height={30}
             width={160}
-            src={`/images/${brand.attributes.template}.png`}
+            src="testestest"
             alt="logo"
           />
         </div>
